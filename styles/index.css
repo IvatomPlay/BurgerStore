@@ -28,16 +28,6 @@
   align-items: center;
 }
 
-.demisphere {
-  position: absolute;
-  width: 2880px;
-  height: 2880px;
-  left: -720px;
-  top: -2414px;
-  background: #FFAB08;
-  
-}
-
 .header-title {
   font-size: 50px;
   font-weight: bold;
@@ -47,4 +37,13 @@
 .header-subtitle {
   font-size: 16px;
   color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item_link {
+  text-decoration: none;
 }
