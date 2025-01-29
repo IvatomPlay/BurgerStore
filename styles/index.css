@@ -35,8 +35,7 @@
 .title-container_text {
   display: flex;
   flex-direction: column;
-  gap: 30px;
-  justify-content: center;
+  gap: 52px;
 }
 
 .title-container {
@@ -73,23 +72,31 @@
 
 .nav {
   margin-top: 40px;
+  margin-left: 75px;
+  margin-right: 75px;
 }
 
 .nav-menu {
   display: flex;
+  gap: 24px;
   list-style: none;
 }
 
 .nav-menu_item {
-display: flex;
-justify-content: center;
-gap: 8px;
-width: 121px;
-height: 40px;
-background: #FFFFFF;
-border-radius: 50px;
+  width: 108px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 50px;
+  align-items: center;
 }
 
 .menu-item_link {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.nav-menu_item:hover {
+  background-color: #FF5C00;
 }
