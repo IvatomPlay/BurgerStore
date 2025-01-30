@@ -92,6 +92,7 @@
 
 .menu-item_link {
   text-decoration: none;
+  color: var(--primary-text-color);
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -99,4 +100,5 @@
 
 .nav-menu_item:hover {
   background-color: #FF5C00;
+  cursor: pointer;
 }
